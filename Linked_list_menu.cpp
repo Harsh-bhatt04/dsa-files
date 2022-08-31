@@ -125,6 +125,22 @@ void insertgivenpSLL()
 		}
 	}
 }
+void deletefirst_sll()
+{
+	node *temp;
+	if(start==NULL)
+	{
+	printf("\n list is empty");
+	}
+	else
+	{
+	temp=start;
+	start=start->next;
+	printf("\n%d is deleted from the first position",tem->info);
+	free(temp);
+	}
+}
+void 
 
 int main()
 {
