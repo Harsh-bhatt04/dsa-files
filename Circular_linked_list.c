@@ -98,7 +98,7 @@ void insertfirstCll()
    	if(start==NULL)
    	{
    		start=first;
-		printf("\nList is created inserted of insertion...");
+		printf("\nList is created instead of insertion...");
 	}
 	else
 	{
@@ -134,7 +134,7 @@ void insertfirstCll()
    	if(start==NULL)
    	{
    		start=last;
-		printf("\nList is created inserted of insertion...");
+		printf("\nList is created instead of insertion...");
 	}
 	else
 	{
@@ -172,7 +172,7 @@ void insertfirstCll()
    	if(start==NULL)
    	{
    		start=givenp;
-		printf("\nList is created inserted of insertion...");
+		printf("\nList is created instead of insertion...");
 	}
 	else
 	{ 
@@ -212,7 +212,7 @@ void insertgivenvalueCll()
    	if(start==NULL)
    	{
    		start=givenv;
-		printf("\nList is created inserted of insertion...");
+		printf("\nList is created instead of insertion...");
 	}
 	else
 	{ 
