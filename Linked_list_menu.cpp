@@ -144,7 +144,7 @@ void
 
 int main()
 {
-	int choise;
+	int choice;
 	printf("\n Press:1 to create the linked list");
 	printf("\n Press:2 to insert node at first index");
 	printf("\n Press:3 to insert node between linked list");
@@ -152,11 +152,11 @@ int main()
 	printf("\n Press:5 to insert node at given position");
 	printf("\n Press:6 to insert node at given value position");
 	printf("\n enter the choice:");
-	scanf("%d",&choise);
+	scanf("%d",&choice);
 	
-	while(choise!=99)
+	while(choice!=99)
 	{
-		switch(choise)
+		switch(choice)
 		{
 			case 1:createSLL();break;
 			case 2:insertfirstSLL();break;
